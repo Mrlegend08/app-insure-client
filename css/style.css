@@ -155,11 +155,11 @@ ul {
   right: 0;
 }
 
-.different-section{
+.different-section {
   position: relative;
   background-image: url("/images/Group\ 17.png");
-  background-position-x: calc(50% - 1015px) ;
-  background-position-y: calc(50% - 313px) ;
+  background-position-x: calc(50% - 1015px);
+  background-position-y: calc(50% - 313px);
   background-repeat: no-repeat;
 }
 
@@ -183,8 +183,8 @@ ul {
   position: absolute;
   width: 150px;
   height: 1px;
-  left: 165px;
-  top: 985px;
+  left: 335px;
+  top: 246px;
   background: #c396c6;
 }
 .different-section-list {
@@ -225,10 +225,10 @@ ul {
   background-repeat: no-repeat;
   content: "";
   /* background-position: ; */
-  background-image: url("../images/dizayn.png")
+  background-image: url("../images/dizayn.png");
 }
 
-.different-section-items:nth-child(2  ):before {
+.different-section-items:nth-child(2):before {
   display: block;
   width: 22px;
   height: 36px;
@@ -237,7 +237,7 @@ ul {
   background-color: #96a9c6;
   background-repeat: no-repeat;
   content: "";
-  background-image: url("../images/dizayn_dol.png")
+  background-image: url("../images/dizayn_dol.png");
 }
 
 .different-section-items:nth-child(3):before {
@@ -250,6 +250,118 @@ ul {
   background-repeat: no-repeat;
   content: "";
   /* background-position: ; */
-  background-image: url("../images/dizayn_pip.png")
+  background-image: url("../images/dizayn_pip.png");
+}
+
+.find-section-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 69px 80px 69px 81px;
+  background-image: url("../images/sd.png");
+  background-size: 100%;
+  margin-bottom: 150px;
+}
+
+.find-section-title {
+  position: absolute;
+  height: 112px;
+  left: 7.3%;
+  right: 49.91%;
+  top: calc(50% - 103px);
+
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  /* or 100% */
+
+  letter-spacing: -0.777778px;
+
+  color: #ffffff;
+}
+
+.find-section-btn {
+  border: 1.5px solid #ffffff;
+  padding: 12.5px 24.5px;
+  color: #ffffff;
+}
+
+.find-section-btn:active {
+  background-color: #fff;
+  color: #2c2830;
 }
 /*************** main styles end ****************/
+
+/********************* footer styles start ****************/
+
+.site-footer-bg{
+  background-image: url(../images/Group\ 18\ Copy.jpg);
+  padding-top: 67px;
+}
+
+
+.site-footer-wrapper-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.line {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.site-footer-list-top {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.site-footer-items {
+  width: 255px;
+}
+
+.site-footer-links {
+  width: 255px;
+}
+
+.site-footer-links1 {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+
+  color: #837d88;
+}
+
+.site-footer-items2 {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  gap: 30px;
+  margin-bottom: 16px;
+}
+
+.site-footer-links {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+
+  color: #2d2641;
+}
+/********************* footer styles end ****************/
