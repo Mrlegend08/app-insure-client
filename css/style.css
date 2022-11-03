@@ -89,7 +89,7 @@ ul {
   background-color: rgba(45, 38, 65, 1);
   background-image: url(../images/Group\ 17.png);
   background-repeat: no-repeat;
-  background-position: calc(50% + 675px) calc(50% - 88px);
+  background-position: calc(50% + 610px) calc(50% - 98px);
 }
 
 .hero-section-wrapper {
@@ -143,17 +143,113 @@ ul {
   color: #ffffff;
 }
 
-.hero-section-btn:active{
-    background-color:#fff;
-    color: #2c2830;
+.hero-section-btn:active {
+  background-color: #fff;
+  color: #2c2830;
 }
 
-
-.hero-section-img{
-    width: 540px;
-    height: 650px;
-    position: absolute;
-    right: 0;
+.hero-section-img {
+  width: 540px;
+  height: 650px;
+  position: absolute;
+  right: 0;
 }
 
+.different-section{
+  position: relative;
+  background-image: url("/images/Group\ 17.png");
+  background-position-x: calc(50% - 1015px) ;
+  background-position-y: calc(50% - 313px) ;
+  background-repeat: no-repeat;
+}
+
+.different-section-wrapper {
+  padding-top: 305px;
+  padding-bottom: 158px;
+}
+
+.different-section-title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2c2830;
+}
+
+.different-section-title::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  left: 165px;
+  top: 985px;
+  background: #c396c6;
+}
+.different-section-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.different-section-subtitle {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.388889px;
+
+  color: #2c2830;
+}
+
+.different-section-desc {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #837d88;
+}
+
+.different-section-items:nth-child(1):before {
+  display: block;
+  width: 22px;
+  height: 36px;
+  padding: 27px 37px;
+  border-radius: 50%;
+  background-color: #96a9c6;
+  background-repeat: no-repeat;
+  content: "";
+  /* background-position: ; */
+  background-image: url("../images/dizayn.png")
+}
+
+.different-section-items:nth-child(2  ):before {
+  display: block;
+  width: 22px;
+  height: 36px;
+  padding: 27px 37px;
+  border-radius: 50%;
+  background-color: #96a9c6;
+  background-repeat: no-repeat;
+  content: "";
+  background-image: url("../images/dizayn_dol.png")
+}
+
+.different-section-items:nth-child(3):before {
+  display: block;
+  width: 22px;
+  height: 36px;
+  padding: 27px 37px;
+  border-radius: 50%;
+  background-color: #96a9c6;
+  background-repeat: no-repeat;
+  content: "";
+  /* background-position: ; */
+  background-image: url("../images/dizayn_pip.png")
+}
 /*************** main styles end ****************/
