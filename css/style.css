@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -63,19 +64,96 @@ ul {
   color: #837d88;
 }
 
-.site-nav-link:active{
-    color:  #2c2830;
+.site-nav-link:active {
+  color: #2c2830;
 }
 .site-header-btn {
   padding: 12.5px 28.5px;
   background-color: #fff;
   border: 1.5px solid #2c2830;
-
 }
 
 .site-header-btn:active {
-    background-color: #2c2830;
-    color: #fff;
+  background-color: #2c2830;
+  color: #fff;
 }
 
 /*************** header styles end ****************/
+
+/*************** main styles start ****************/
+.site-main {
+  background-color: #fff;
+}
+
+.hero-section {
+  background-color: rgba(45, 38, 65, 1);
+  background-image: url(../images/Group\ 17.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 675px) calc(50% - 88px);
+}
+
+.hero-section-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 105px;
+  padding-bottom: 127px;
+}
+
+.hero-section-start {
+  width: 540px;
+}
+
+.hero-section-title {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.hero-section-title::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  left: 4px;
+  top: 110px;
+  background-color: #ffffff;
+}
+
+.hero-section-desc {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.hero-section-btn {
+  display: inline-block;
+  padding: 12.5px 28.5px;
+  border: 1.5px solid #fff;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
+
+.hero-section-btn:active{
+    background-color:#fff;
+    color: #2c2830;
+}
+
+
+.hero-section-img{
+    width: 540px;
+    height: 650px;
+    position: absolute;
+    right: 0;
+}
+
+/*************** main styles end ****************/
